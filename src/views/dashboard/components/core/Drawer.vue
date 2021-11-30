@@ -129,7 +129,7 @@ export default {
     profile() {
       return {
         avatar: true,
-        title: "Home"
+        title: "Inicio"
         //title: this.$t("avatar")
       };
     }

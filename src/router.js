@@ -90,6 +90,11 @@ export default new Router({
           name: "Thanks",
           path: "Thanks/:email",
           component: () => import("@/views/dashboard/contact/Thanks")
+        },
+        {
+          name: "Privacy",
+          path: "privacy",
+          component: () => import("@/views/dashboard/contact/Privacy")
         }
       ]
     },
